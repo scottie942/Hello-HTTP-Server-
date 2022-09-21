@@ -1,4 +1,4 @@
-const http = require("http")
+const http = require("http");
 
 const server = http.createServer((req, res) => {
     res.writeHead(200, {"Content-type": "text"})
@@ -8,4 +8,4 @@ const server = http.createServer((req, res) => {
 
 server.listen(8080, () => {
     console.log("Server is listening on localhost:8080")
-})
+});
